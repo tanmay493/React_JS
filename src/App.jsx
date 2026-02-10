@@ -1,41 +1,18 @@
-
-import{BrowserRouter,Routes,Route} from "react-router-dom";
-import Layout from "./Layout";
-import Home from "./pages/Home" ;
-import About from "./pages/About" ;
-import Contact from "./pages/Contact" ;
-
-
+import React from 'react'
+import{useState} from "react"
 
 const App = () => {
+  const[color,setcolor]=useState("red");
   return (
     <>
-    <BrowserRouter>
-    <Routes>
-<Route path="/" element={<Layout/>}>
-
-<Route index element={<Home/>}/>
-<Route path="home" element={<Home/>}/>
-<Route path="about" element={<About/>}/>
-<Route path="contact" element={<Contact/>}/>
-
-
-
-
-</Route>
-
-
-
-
-    </Routes>
-    
-    
-    
-    
-    </BrowserRouter>
+    <h1 style={{color:color}}>Welcome :{color} </h1>
+    <button onClick={()=>{setcolor("pink")}}>pink</button>
+    <button onClick={()=>{setcolor("blue")}}>blue</button>
+    <button onClick={()=>{setcolor("green")}}>green</button>
+    <button onClick={()=>{setcolor("orange")}}>orange</button>
       
     </>
   )
 }
 
-export default App;
+export default App
