@@ -1,0 +1,21 @@
+.container{
+  color: aquamarine;
+  padding: 10px;
+  background-color: black;
+}
+
+.xyz{
+  display:flex;
+  
+
+}
+.a{
+  background-color: azure;
+
+}
+.b{
+  background-color: bisque;
+}
+.c{
+  background-color: brown;
+}
