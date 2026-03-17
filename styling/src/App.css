@@ -6,16 +6,24 @@
 
 .xyz{
   display:flex;
+  gap: 20px;
+  background-color: black;
+  
   
 
 }
 .a{
-  background-color: azure;
+  background-color:orange;
+  padding: 30px;
 
 }
 .b{
-  background-color: bisque;
+  background-color:lightgreen;
+  padding: 30px;
+
 }
 .c{
   background-color: brown;
+  padding: 30px;
+
 }

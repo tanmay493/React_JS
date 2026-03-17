@@ -1,9 +1,10 @@
 import "./App.css"
+import Cards from "./Cards"
  
 function App(){
   let mystyle={
     color:"blue",
-    backgroundColor:"pink",
+    backgroundColor:"pink", //yeh inline css  likhne 2nd way
     padding:"10px"
   }
   return(
@@ -21,9 +22,11 @@ function App(){
       Fugiat dolor culpa repellat vel ipsam, aliquid unde ipsum dicta quidem, saepe neque delectus aspernatur facere veritatis ducimus nulla accusamus minus sit quia iusto! Magni voluptatem animi magnam? Rerum, voluptas.
       Voluptate, laudantium impedit ipsam labore necessitatibus obcaecati laborum, asperiores maiores similique nihil assumenda natus eaque veritatis nobis, in ea! Vero eius voluptatibus quod perspiciatis nihil nisi tenetur assumenda, totam eligendi.
       Delectus pariatur quis illo perferendis laborum autem porro similique est molestias, impedit aliquam at adipisci veritatis nostrum. Fugit, mollitia deleniti culpa porro facilis vel tenetur magni laudantium blanditiis animi pariatur.</p>
-<button>click here</button>
+<button >click here</button>
     </div>
+    <hr />
+    <Cards/>
     </>
   )
 }
-export default App
+export default App;
