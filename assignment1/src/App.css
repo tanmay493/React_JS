@@ -1,0 +1,33 @@
+.hi{
+  background-color: lightgoldenrodyellow;
+}
+
+.abc{
+  text-align: center;
+}
+
+.xyz{
+    display: flex;
+    gap:100px;
+    background-color:yellow;
+    height: 50px;
+    justify-content:space-around;
+    
+}
+.hero{
+background-color: aqua;
+padding: 20px;
+}
+.zero{
+  text-align: center;
+}
+.button{
+  text-align: center;
+}
+.footer{
+  background-color: black;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  
+}
