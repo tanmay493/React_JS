@@ -11,7 +11,7 @@ function App(){
     <hr />
     <Child1 name="tom" age ={90} />
     <hr />
-    <Child2 city="bhopal"/>
+    <Child2 city="bhopal" age={23}/>
     <hr />
     <Child3 userdata={person}/>
     </>

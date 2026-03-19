@@ -1,10 +1,10 @@
-function Child2({city}){
+function Child2({city,age}){
     
 
     return(
 
 <>
-<h1> child2 my city is {city} </h1>
+<h1> child2 my city is {city} And age is{age} </h1>
 </>
     )
 }
