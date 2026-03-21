@@ -7,7 +7,7 @@ function App(){
   }
   return(
     <>
-    <h1>This is app-page props</h1>
+    <h1 className="bg-blue-800">This is app-page props</h1>
     <hr />
     <Child1 name="tom" age ={90} />
     <hr />
