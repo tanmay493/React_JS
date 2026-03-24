@@ -1,7 +1,7 @@
 function App(){
     return(
         <>
-        <div className="bg-black">
+        <div className="bg-black " style={{height:"100vh"}}>
 
         
     
