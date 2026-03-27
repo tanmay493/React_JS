@@ -2,7 +2,7 @@ import About from "./About"
 import Contact from "./Contact"
 import Menu from "./Menu"
 import{Hi1 as H,Hi2} from "./Hi"
-import Fun from './Index'
+import Fun from './Index' //fun yeh sirf default export
 import { Index2,Index3 } from "./Index"
 
 function App(){

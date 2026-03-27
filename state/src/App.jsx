@@ -14,7 +14,7 @@ function App(){
   function demo2(){
     setData("change the time")
   }
-
+// ------------------------------------------------------------------
   let [data1,setData1]=useState(0)
   function add(){
    setData1(data1+1) //data1+1 (++data) nahi likhte 
@@ -26,7 +26,7 @@ function App(){
   }
   // -------------------------------------------------------
   
-  let[color,setColor]=useState()
+  let[color,setColor]=useState('green')
 //-------------------------------------------------------
 let[ob,setOb]=useState({name:"code",age:23})
 let[person,setPerson]=useState(["tom",45,"bhopal"])
