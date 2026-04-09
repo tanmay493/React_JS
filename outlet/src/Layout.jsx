@@ -1,3 +1,8 @@
+//Link -> yeh anchor tag jaisa  jisme href uske jaise kaam karega
+//Outlet-> isme layout ke child components show hongey yeh ek placeholder hai
+// BrowserRouter -> without reload huye ek page se dusre
+                    //  page navigate(travel) kar sake
+                    // Routing enable karne ke liye
 import {Link,Outlet} from "react-router-dom"
 function Layout(){
     return(
