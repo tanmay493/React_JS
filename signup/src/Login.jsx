@@ -17,7 +17,7 @@ function Login(){
         alert("user not found")
         
          }
-      else{
+    else{
         alert("sucessful")
         navigate('/home')
       }
