@@ -9,6 +9,7 @@ function Child2(){
                 (a)=>{return <h1> this is {a} </h1>}
             }
         </xyz.Consumer>
+        
         </>
     )
 
