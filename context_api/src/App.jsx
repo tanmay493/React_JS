@@ -1,5 +1,7 @@
 import { createContext } from "react"
 import Child1 from "./Child1"
+import Home from "./Home"
+import About from "./About"
 
 let xyz=createContext()
 
@@ -11,6 +13,8 @@ function App(){
     <xyz.Provider value={name}> 
       <Child1/>
     </xyz.Provider>
+    <Home/>
+    <About/>
 
     </>
   )

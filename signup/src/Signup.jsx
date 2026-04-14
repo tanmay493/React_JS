@@ -1,5 +1,6 @@
-import { useState } from "react"
+import {  useState } from "react"
 import { useNavigate } from "react-router-dom"
+
 
 function Signup(){
     let[signup,setSignup]=useState({})
@@ -25,6 +26,7 @@ function Signup(){
     return(
         <>
         <h1>signup page</h1>
+        
         <form onSubmit={formsubmit} >
             <label htmlFor="">name</label>
             <input type="text" onChange={handleinput} name='name'/><br /> <br />

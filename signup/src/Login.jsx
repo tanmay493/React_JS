@@ -19,7 +19,9 @@ function Login(){
          }
     else{
         alert("sucessful")
-        navigate('/home')
+        // navigate('/home')
+        navigate('/admin')
+        
       }
     }
     return(
