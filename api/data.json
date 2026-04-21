@@ -1,4 +1,26 @@
 {
-  "userdata": [],
+  "userdata": [
+    {
+      "name": "bharat",
+      "age": "26",
+      "city": "jbl",
+      "contact": "12345667778",
+      "id": "_kpUD1BHlBA"
+    },
+    {
+      "name": "tanmay lanjewar",
+      "age": "21",
+      "contact": "12234567890",
+      "city": "bhopal",
+      "id": "v3d2TeXQ-J0"
+    },
+    {
+      "name": "priya gupta",
+      "age": "22",
+      "contact": "12234567890",
+      "city": "bhopal",
+      "id": "Jq19VOIl6GU"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
